@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="color:rgb(78, 7, 176); text-align: center;">Jamlpur Science and Technolgy University</h1>
+        <h1 style="color:rgb(4, 162, 62); text-align: center;">Shahariar Islam Sakib</h1>
+        <h1 style="color:rgb(14, 15, 15); text-align: center;">MCQ Quiz</h1>
+
+        <h2 id="timer">Time Left: 60s</h2>
+
+        <!-- Start Page -->
+        <div id="start-container">
+            <input type="text" id="username" placeholder="Enter your name" style="color:rgb(6, 126, 246);">
+            <button onclick="startQuiz()" style="background-color:rgb(14, 150, 73);">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz" style="display:none;">
+            <div id="options"></div>
+            <br>
+            <button onclick="endQuiz()" style="background-color:rgb(211, 45, 45); color:white;">Finish Quiz</button>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result" style="display:none;">
+            <h2>Quiz Completed!</h2>
+            <p id="score"></p>
+        </div>
+
+        <!-- Records Section -->
+        <div id="records-container">
+            <h2>All Records</h2>
+            <ul id="records-list"></ul>
+        </div>
+    </div>
+
+    <!-- Clear Records Button -->
+    <button onclick="clearRecords()" style="margin-top:10px;">Clear All Records</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

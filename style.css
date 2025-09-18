@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.quiz-container {
+    background: rgb(82, 189, 239);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(177, 11, 11, 0.1);
+    
+}
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+button:hover {
+  background-color: green;
+  color: white; 
+}
+
+#start-container
+{
+    color: #f4f4f4;
+}
+
+body {
+  background-image: url("I.png");
+  background-size: cover;        /* Make it cover the whole page */
+  background-repeat: no-repeat;  /* Prevent repeating */
+  background-attachment: fixed;  /* Keep background fixed while scrolling */
+  background-position: center;   /* Center the image */
+}
